@@ -21,3 +21,18 @@ https://research.stlouisfed.org/docs/api/fred/releases.html
    https://www.mysql.com/products/workbench/
 
     MySQL workbench is free 
+
+
+Instruction on how to run the code:
+
+- Code for all tasks are included within the week1 finder
+
+- dataScraping.py contains the code for retrieving data from the FRED API and parse data to a relational datatable
+	packages: requests, json
+	run: python3 dataScraping.py
+
+- release_data.json contains the origin data retrieved from the API in json format
+
+- released_data.csv contains the data(table) to be loaded to the mysql database
+
+- relationaldb.xml contains the xml file for MySQL database.
